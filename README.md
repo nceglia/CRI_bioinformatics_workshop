@@ -1,4 +1,4 @@
-# CRI_bioinformatics_workshop
+# CRI Bioinformatics Workshop
 Tutorials and code for CRI bioinformatics workshop. 
 
 ## Installation instructions
