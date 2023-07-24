@@ -9,10 +9,9 @@ Tutorials and code for CRI bioinformatics workshop.
 ```
 git clone https://github.com/crigrants/CRI_bioinformatics_workshop.git
 ```
-5. Clone data repository.
-```
-git clone https://github.com/ncborcherding/utility.git
-```
+5. Download data (~36 Gb)
+[Download data repository](https://zenodo.org/record/6325603)
+
 
 ## Downloading data and data exploration.
 
