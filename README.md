@@ -4,44 +4,44 @@ Tutorials and code for CRI bioinformatics workshop.
 ## Installation instructions
 
 1. Install R
-2. Install RStudio   
-4. Clone tutorial repository.
+ - Visit [this link](http://lib.stat.cmu.edu/R/CRAN/) and download the latest R version. 
+2. Install RStudio
+ - Visit [this link](https://posit.co/download/rstudio-desktop/ ) and download the latest RStudio.
+3. Clone tutorial repository.
+Open a terminal and confirm that _Git_ is installed.
+```
+git --help
+```
+Create a directory to house data and tutorial code.
+```
+mkdir ~/cri_bootcamp/
+cd ~/cri_bootcamp/
+```
+Clone current repo
 ```
 git clone https://github.com/crigrants/CRI_bioinformatics_workshop.git
 ```
-5. Download data (~36 Gb)
-[Download data repository](https://zenodo.org/record/6325603)
+4. Download data (~36 Gb)
+[Download Data](https://zenodo.org/record/6325603)
+```
+wget https://zenodo.org/record/6325603/files/utility.zip .
+unzip utility.zip
+```
 
+## Starting RStudio and install libraries.
 
-## Downloading data and data exploration.
-
-1. something
-2. something
-3. something
+1. Open RStudio and set the current working directory ```setwd(~/cri_bootcamp)```
+2. Open the file ```CRI_bioinformatics_workshop/tutorials/package_installation.qmd```
 
 ## Day 1 Tutorials
 
-1. Data frames
-2. ggplot features
-    - Heatmaps
-    - Boxplots/Violin
-3. Loading into Seurat object.
-    - Loading from 10x cellranger output.
-    - Loading from rds and h5ad format.
-4. Basic Quality Control
-    - Mito/Ribosomal
-    - Total Counts
-    - Genes by counts
-    - Normalization techniques
-4. Generating lower dimensional
-    - PCA
-    - Nearest Neighbor Graphs
-    - UMAP
-5. Common statistical tests
-    - Differential gene expression
-    - Volcano plots
-    - Comparing expression between condtions.
-    - Enrichment tests (fisher)
+### Loading Data
+
+To begin, we will load several T cell datasets from the ...
+
+1. Open the file _CRI_bioinformatics_workshop/tutorials/data_exploration.qmd_.
+2. 
+
 
 
 
